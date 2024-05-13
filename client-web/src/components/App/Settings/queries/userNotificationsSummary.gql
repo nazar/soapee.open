@@ -1,0 +1,5 @@
+query userNotificationsSummary($search: NotificationSearchInput) {
+  userNotificationsSummary(search: $search) {
+    count
+  }
+}

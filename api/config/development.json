@@ -1,0 +1,19 @@
+{
+  "database": {
+    "connection": {
+      "connectionString": "postgresql://postgres:docker@db:5432/soapee",
+      "statement_timeout": 120000,
+      "query_timeout": 120000,
+      "idle_in_transaction_session_timeout": 120000
+    }
+  },
+  "jwt": {
+    "secret": "supah-sekret"
+  },
+  "graphql": {
+    "playground": true
+  },
+  "redis": {
+    "host": "redis"
+  }
+}

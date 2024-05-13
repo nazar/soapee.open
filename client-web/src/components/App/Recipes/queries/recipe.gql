@@ -1,0 +1,65 @@
+query recipeForEditClone($id: ID!) {
+  recipe(id: $id ) {
+    id
+    userId
+    name
+    description
+    notes
+    visibility
+    recipeImage
+
+    settings {
+      uom
+      uomType
+      uomDimensionType
+      dimensionWidth
+      dimensionHeight
+      dimensionLength
+      dimensionDiameter
+      ratioKoh
+      soapType
+      superFat
+      superfatAfter
+      totalUom
+      kohPurity
+      naohPurity
+      ratioNaoh
+      waterRatio
+      lyeCalcType
+      totalWeight
+      totalsIncludeWater
+      fragrance
+      fragrancePpo
+      fragranceType
+      waterDiscount
+      lyeWaterLyeRatio
+      lyeWaterWaterRatio
+      recipeLyeConcentration
+      enableCitricAdjust
+      citricAdjustPercent
+    }
+
+    recipeAdditives {
+      id
+      additiveId
+      weight
+
+      additive {
+        id
+        name
+        notes
+      }
+    }
+
+    recipeOils {
+      id
+      oilId
+      weight
+
+      oil {
+        id
+        name
+      }
+    }
+  }
+}

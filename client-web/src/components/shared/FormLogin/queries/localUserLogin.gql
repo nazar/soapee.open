@@ -1,0 +1,17 @@
+mutation localUserLogin(
+  $username: String!
+  $password: String!
+  $rememberMe: Boolean
+) {
+  localUserLogin(
+    username: $username,
+    password: $password,
+    rememberMe: $rememberMe
+  )
+  {
+    token
+    user {
+      id
+    }
+  }
+}

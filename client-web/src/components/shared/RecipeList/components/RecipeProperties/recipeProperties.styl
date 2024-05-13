@@ -1,0 +1,40 @@
+.search-recipe-properties
+  label
+    display block
+    font-size 12px
+    font-weight bold
+
+  .vertical
+    label, .value-label
+      padding-bottom $base-spacing * 2
+
+    .value-label
+      padding-top $base-spacing * 2
+
+  .horizontal
+    margin-left $base-spacing * 2
+    margin-right $base-spacing * 2
+
+    +computer()
+      margin-left $base-spacing * 10
+      margin-right $base-spacing * 10
+
+    &.last
+      .wrapper
+        padding-bottom $base-spacing * 3
+
+    label
+      padding-bottom $base-spacing
+
+  .rc-slider
+    +tablet-up()
+      min-height 86px
+
+    &.rc-slider-vertical
+      height initial
+      margin-left auto
+      margin-right auto
+
+    .rc-slider-mark-text
+      font-size 11px
+

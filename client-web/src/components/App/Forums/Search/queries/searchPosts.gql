@@ -1,0 +1,7 @@
+#import "queries/post/postableFields.gql"
+
+query searchForumPosts($search: PostsSearchInput!, $page: PaginationInput, $order: PostOrderInput) {
+  posts( page: $page, order: $order, search: $search  ) {
+    ...postableFields
+  }
+}

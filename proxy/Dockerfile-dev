@@ -1,0 +1,7 @@
+FROM nginx:1.15-alpine
+
+COPY ./etc/nginx.conf /etc/nginx/
+
+RUN mkdir -p /home/images
+
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,13 @@
+FROM node:12.21.0-buster-slim
+
+# to compile bcrypt
+RUN apt-get update && apt-get install -y build-essential git-core python
+
+WORKDIR /app
+
+COPY ./package.json ./yarn.lock ./
+RUN yarn install
+
+COPY . /app
+
+CMD yarn start

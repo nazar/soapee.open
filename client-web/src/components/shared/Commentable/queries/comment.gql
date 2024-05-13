@@ -1,0 +1,7 @@
+#import "queries/comment/commentFields.gql"
+
+query comment($id: ID!) {
+  comment(id: $id) {
+    ...commentFields
+  }
+}

@@ -1,0 +1,33 @@
+#import 'queries/forum/forumFields.gql'
+
+query forum($id: ID!) {
+  forum(id: $id) {
+    ...forumFields
+    bannerStr
+
+    myReport {
+      id
+      report
+      notes
+    }
+
+    mySubscription {
+      id
+    }
+
+    moderators {
+      id
+      userId
+    }
+
+    locks {
+      id
+    }
+
+    forumTags {
+      id
+      tag
+      color
+    }
+  }
+}

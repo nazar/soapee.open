@@ -1,0 +1,15 @@
+{
+  "env": {
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "padded-blocks": [0],
+    "quotes": [0],
+    "no-unused-expressions": [0],
+    "camelcase": [0],
+    "import/no-unresolved": [0],
+    "import/default": [0],
+    "import/order": [0]
+  }
+}

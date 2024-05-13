@@ -1,0 +1,84 @@
+{
+  "forums": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "summary": "this is the summary",
+      "name": "testforum",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum1"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user1",
+      "summary": "this is the summary",
+      "name": "another_forum",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum2"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user2",
+      "summary": "this is the summary",
+      "name": "another_forummm",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum3"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user2",
+      "summary": "official forum summary",
+      "name": "official_forum",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum4"
+    },
+    {
+      "id": 5,
+      "user_id": "users:user1",
+      "name": "features",
+      "summary": "Have a new idea or a way to improve Soapee? Post your thoughts here",
+      "banner": "\n<h2>Requesting New Soapee Features</h2>\n<p>So you have a new idea or feature to add to Soapee. Great and thank you for thinking of the Soapee Community. Please consider the following guidelines when posting a feature request:</p>\n<ul>\n<li>have a title that includes a very short description of the request</li>\n<li>include a description of what the feature is</li>\n<li>argue for why the feature is needed</li>\n</ul>\n<p>It is my hope that popular features will be upvoted on and actioned according to their popularity as decided by the community.</p>",
+      "forum_type": "public",
+      "created_at": "2020-08-12 10:26:40.827379",
+      "updated_at": "2020-08-12 10:26:40.827379",
+      "stats": null,
+      "specId": "forum5"
+    },
+    {
+      "id": 6,
+      "user_id": "users:user1",
+      "name": "announcements",
+      "summary": "Soapee announcements; Soapee news and updates",
+      "banner": "\n<h2>Soapee Announcements</h2>\n<p>Official Soapee announcements are posted here.</p>\n",
+      "forum_type": "restricted",
+      "created_at": "2020-08-12 10:26:40.827379",
+      "updated_at": "2020-08-12 10:26:40.827379",
+      "stats": null,
+      "specId": "forum6"
+    },
+    {
+      "id": 7,
+      "user_id": "users:user1",
+      "name": "all",
+      "summary": "Shows all Soapee Posts",
+      "banner": "\n<h2>Soapee Announcements</h2>\n<p>Official Soapee announcements are posted here.</p>\n",
+      "forum_type": "restricted",
+      "created_at": "2020-08-12 10:26:40.827379",
+      "updated_at": "2020-08-12 10:26:40.827379",
+      "stats": null,
+      "specId": "forum7"
+    }
+  ]
+}

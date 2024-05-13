@@ -1,0 +1,17 @@
+mutation localSignup(
+  $username: String!
+  $password: String!
+  $email: String
+) {
+  localSignup(
+    username: $username
+    password: $password
+    email: $email
+  )
+  {
+    token
+    user {
+      id
+    }
+  }
+}

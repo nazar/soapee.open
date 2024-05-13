@@ -1,0 +1,37 @@
+fragment oilFields on Oil {
+  id
+  name
+  iodine
+  ins
+  sap
+  totalSaponifiable
+
+  breakdown {
+    oleic
+    capric
+    lauric
+    stearic
+    caprylic
+    linoleic
+    myristic
+    palmitic
+    linolenic
+    ricinoleic
+    docosenoid
+    eicosenoic
+    docosadienoic
+    erucic
+  }
+
+  stats {
+    comments {
+      count
+    }
+    posts {
+      count
+    }
+    recipes {
+      count
+    }
+  }
+}

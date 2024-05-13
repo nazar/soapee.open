@@ -1,0 +1,5 @@
+mutation unlockPost($id: ID!) {
+  unlockPost(id: $id) {
+    id
+  }
+}

@@ -1,0 +1,6 @@
+mutation forumUserSubscriptionToggleCurrentUser($forumId: ID!) {
+  forumUserSubscriptionToggleCurrentUser(forumId: $forumId) {
+    id
+    forumId
+  }
+}

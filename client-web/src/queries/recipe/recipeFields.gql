@@ -1,0 +1,50 @@
+#import "queries/user/publicUserFields.gql"
+#import "queries/reaction/reactionDetailFields.gql"
+
+fragment summaryRecipeFields on Recipe {
+  id
+  name
+  best
+  createdAt
+  updatedAt
+
+  reactions {
+    ...reactionDetailFields
+  }
+
+  settings {
+    soapType
+  }
+
+  stats {
+    comments {
+      comments
+    }
+    votes {
+      score
+    }
+    favourites {
+      favourites
+    }
+  }
+
+  myVote {
+    id
+    vote
+  }
+
+  myReport {
+    id
+    report
+    notes
+  }
+
+  myFavourite {
+    id
+  }
+
+  user {
+    ...publicUserFields
+  }
+}
+

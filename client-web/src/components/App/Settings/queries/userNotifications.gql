@@ -1,0 +1,20 @@
+query userNotifications($search: NotificationSearchInput, $page: PaginationInput) {
+  userNotifications(
+    search: $search
+    page: $page
+    order: { field: createdAt, direction: desc }
+  ) {
+    id
+    read
+    notifiableId
+    notifiableType
+    notificationMeta
+    createdAt
+
+    sourceUser {
+      id
+      name
+      canonicalImage
+    }
+  }
+}

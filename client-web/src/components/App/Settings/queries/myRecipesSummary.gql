@@ -1,0 +1,5 @@
+query myRecipesSummary($search: MyRecipesSearchInput) {
+  myRecipesSummary(search: $search) {
+    count
+  }
+}

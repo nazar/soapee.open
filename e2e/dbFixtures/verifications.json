@@ -1,0 +1,81 @@
+{
+  "verifications": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "provider_id": "nazar",
+      "provider_name": "local",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-27 12:35:41.290000",
+      "updated_at": "2015-07-27 12:35:41.290000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 2,
+      "user_id": "users:user2",
+      "provider_id": "aziz",
+      "provider_name": "local",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 3,
+      "user_id": "users:user3",
+      "provider_id": "stranger",
+      "provider_name": "local",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 4,
+      "user_id": "users:user5",
+      "provider_id": "forgot",
+      "provider_name": "local",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 5,
+      "user_id": "users:user6",
+      "provider_id": "dupeemail",
+      "provider_name": "local",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 6,
+      "user_id": "users:user7",
+      "provider_id": "dupeemail",
+      "provider_name": "facebook",
+      "hash": "$2b$10$E4zQHbpGQC5.rnaC8zYiAuhuRzDnHNwlel/mwFzE0wZhqBHPm3E7.",
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    },
+    {
+      "id": 7,
+      "user_id": "users:user8",
+      "provider_id": "recoverfacebook",
+      "provider_name": "facebook",
+      "hash": null,
+      "created_at": "2015-07-28 19:18:09.757000",
+      "updated_at": "2015-07-28 19:18:09.757000",
+      "reset_hash": null,
+      "reset_code": null
+    }
+  ]
+}

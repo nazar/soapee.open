@@ -1,0 +1,35 @@
+#import 'queries/forum/forumFields.gql'
+
+query forums($search: ForumSearchInput, $order: ForumOrderInput, $page: PaginationInput) {
+  forums(search: $search, order: $order, page: $page) {
+    ...forumFields
+
+    posts {
+      id
+      title
+      lastEdited
+      commentedAt
+      createdAt
+
+      stats {
+        comments {
+          comments
+        }
+      }
+    }
+
+    activePosts {
+      id
+      title
+      lastEdited
+      commentedAt
+      createdAt
+
+      stats {
+        comments {
+          comments
+        }
+      }
+    }
+  }
+}

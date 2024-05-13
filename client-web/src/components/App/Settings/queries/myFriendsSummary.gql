@@ -1,0 +1,5 @@
+query myFriendsSummary {
+  myFriendsSummary {
+    count
+  }
+}

@@ -1,0 +1,11 @@
+mutation verificationUserLoginOrSignup($provider: String!, $token: String!, $rememberMe: Boolean) {
+  verificationUserLoginOrSignup(provider: $provider, token: $token, rememberMe: $rememberMe) {
+    token
+
+    user {
+      id
+      imageUrl
+      canonicalImage
+    }
+  }
+}

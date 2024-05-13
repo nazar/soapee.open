@@ -1,0 +1,43 @@
+.group-component
+  display: flex
+
+  &.direction-row
+    flex-direction: row
+
+    &.full-width
+      width: 100%
+
+      & > *
+        flex: 1
+
+  &.direction-column
+    flex-direction: column
+
+  &.align-stretch
+    align-items: stretch
+  &.align-start
+    align-items: flex-start
+  &.align-center
+    align-items: center
+  &.align-end
+    align-items: flex-end
+
+  &.justify-start
+    justify-content: flex-start
+  &.justify-space
+    justify-content: space-between
+  &.justify-center
+    justify-content: center
+  &.justify-end
+    justify-content: flex-end
+
+  &.gap-1
+    gap: $base-spacing
+  &.gap-2
+    gap: $base-spacing * 2
+  &.gap-3
+    gap: $base-spacing* 3
+  &.gap-4
+    gap: $base-spacing* 4
+  &.gap-5
+    gap: $base-spacing* 5

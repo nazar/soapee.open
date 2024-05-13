@@ -1,0 +1,28 @@
+{
+  "forums_official": [
+    {
+      "id": 1,
+      "forum_id": "forums:forum4",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000"
+    },
+    {
+      "id": 2,
+      "forum_id": "forums:forum5",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000"
+    },
+    {
+      "id": 3,
+      "forum_id": "forums:forum6",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000"
+    },
+    {
+      "id": 4,
+      "forum_id": "forums:forum7",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000"
+    }
+  ]
+}

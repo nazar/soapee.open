@@ -1,0 +1,40 @@
+{
+  "reactions": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "smile",
+      "created_at": "2019-12-13 17:56:11.507283",
+      "updated_at": "2019-12-13 17:56:11.507283"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user2",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "smile",
+      "created_at": "2019-12-13 17:56:26.652853",
+      "updated_at": "2019-12-13 17:56:26.652853"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "shrug",
+      "created_at": "2019-12-13 17:57:01.851504",
+      "updated_at": "2019-12-13 17:57:01.851504"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 1,
+      "reaction": "shrug",
+      "created_at": "2019-12-13 17:57:01.851504",
+      "updated_at": "2019-12-13 17:57:01.851504"
+    }
+  ]
+}

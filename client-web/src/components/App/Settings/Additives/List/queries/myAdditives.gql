@@ -1,0 +1,18 @@
+query myAdditives(
+  $search: AdditiveSearchInput
+  $page: PaginationInput
+  $order: AdditiveSortOrderInput
+) {
+  additives(search: $search, page: $page, order: $order) {
+    id
+    name
+    notes
+    createdAt
+
+    stats {
+      recipes {
+        count
+      }
+    }
+  }
+}

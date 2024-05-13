@@ -1,0 +1,62 @@
+version: '3'
+services:
+  # The dev proxy
+  proxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile-dev
+    depends_on:
+    - client-web
+    - api
+    volumes:
+    - ./dev-images:/home/images
+    ports:
+    - '5000:3000'
+
+  # The React Client
+  client-web:
+    build:
+      context: ./client-web
+      dockerfile: Dockerfile-dev
+    env_file:
+    - ./.env-shared
+    volumes:
+    - /app/node_modules/
+    - ./client-web:/app
+    depends_on:
+    - api
+
+  # the API server
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile-dev
+    depends_on:
+    - db
+    - redis
+    env_file:
+    - ./.env-shared
+    volumes:
+    - /app/node_modules/
+    - ./dev-images:/app/images
+    - ./api:/app
+
+  # database server
+  db:
+    image: postgres:13.2
+    ports: ["54325:5432"]
+    environment:
+    - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-docker}
+    - POSTGRES_DB=${POSTGRES_DB:-soapee}
+
+  # local redis server for pubsub and caching
+  redis:
+    image: redis:5.0.2-alpine
+    ports: ["63795:6379"]
+
+  # smtp server for testing email sending/receiving
+  mail:
+    image: mailhog/mailhog:v1.0.1
+    logging:
+      driver: 'none'  # disable saving logs
+    ports: ["8025:8025"]

@@ -1,0 +1,16 @@
+query forumForEdit($id: ID!) {
+  forum(id: $id) {
+    id
+    userId
+    name
+    summary
+    banner
+    forumType
+
+    forumTags {
+      id
+      tag
+      color
+    }
+  }
+}

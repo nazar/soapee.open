@@ -1,0 +1,57 @@
+header-height = 800px
+
+.main-landing
+  .header-container
+    height header-height
+
+    .header
+      width 100%
+      height header-height
+      margin-top -16px
+
+      display table
+
+      background-size cover
+      background url("./assets/landing-background.jpg") no-repeat center center scroll
+
+      .text-vertical-center
+        display table-cell
+        text-align center
+        vertical-align middle
+
+        h1
+          font-size 120px
+
+        h1, h2
+          color white
+          text-shadow: -1px -1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px 1px 0 #000,
+                  1px 1px 0 #000
+
+        +mobile()
+          h1
+            font-size 100px
+
+  #start
+    margin-top 50px
+    margin-bottom 50px
+
+    h2
+      font-size 36px
+
+    .sub.header
+      padding-top $base-spacing * 2
+      font-size $base-spacing * 3
+
+  #features
+    .row
+      .column.row1
+        margin-bottom $base-spacing * 3
+      .column.row2
+        margin-top $base-spacing * 3
+        margin-bottom $base-spacing * 3
+
+      .ui.icon.header
+        .circular.icon
+          font-size 3em

@@ -1,0 +1,20 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "migrate:make": "knex migrate:make",
+    "migrate:latest": "knex migrate:latest",
+    "migrate:rollback": "knex migrate:rollback"
+  },
+  "author": "Nazar Aziz",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "bluebird": "3.7.2",
+    "config": "2.0.1",
+    "knex": "0.20.8",
+    "lodash": "4.17.15",
+    "marked": "0.3.9",
+    "pg": "8.5.1"
+  }
+}

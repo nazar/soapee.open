@@ -1,0 +1,7 @@
+mutation createAdditive($input: CreateAdditiveInput!) {
+  createAdditive(input: $input) {
+    id
+    name
+    notes
+  }
+}

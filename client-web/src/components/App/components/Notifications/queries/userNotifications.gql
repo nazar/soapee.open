@@ -1,0 +1,19 @@
+query userNotifications {
+  userNotifications(
+    page: { limit: 10 }
+    order: { field: createdAt, direction: desc }
+  ) {
+    id
+    read
+    notifiableId
+    notifiableType
+    notificationMeta
+    createdAt
+
+    sourceUser {
+      id
+      name
+      canonicalImage
+    }
+  }
+}

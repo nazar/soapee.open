@@ -1,0 +1,41 @@
+.recipe-view
+  iframe
+    display: block
+    margin-top 8px
+    margin-bottom 8px
+
+    border-width 0
+
+  .actions.is-mobile
+    display flex !important
+    align-items flex-end
+
+    .button
+      margin-bottom 2px
+      min-width 100px
+
+  .stats.is-mobile
+    display flex !important
+    align-items flex-start
+
+    .ui.label
+      display block
+
+      margin-bottom 2px
+      margin-left 0
+
+  .option-login
+    margin-top 14px
+
+  .recipe-image
+    width 700px
+    height 467px
+    margin-bottom 14px
+
+    +mobile()
+      width 317px
+      height 210px
+      object-fit cover
+
+  .recipe-view-reactions
+    padding-top $base-spacing * 2

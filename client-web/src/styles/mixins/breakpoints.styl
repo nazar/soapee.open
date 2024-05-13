@@ -1,0 +1,33 @@
+// semantic ui breakpoint mixins are as follows:
+//
+// -------------x-----------------x-----------------x------------x--------------
+//    mobile   768    tablet     992  computer>   1200  large  1920  widescreen
+
+
+mobile()
+  @media (max-width: 767px)
+    {block}
+
+tablet()
+  @media (min-width: 768px) and (max-width: 991px)
+    {block}
+
+tablet-up()
+  @media (min-width: 768px)
+    {block}
+
+computer()
+  @media (min-width: 992px) and (max-width: 1199px)
+    {block}
+
+computer-up()
+  @media (min-width: 992px)
+    {block}
+
+large()
+  @media (min-width: 1200px) and (max-width: 1919px)
+    {block}
+
+widescreen()
+  @media (min-width: 1920px)
+    {block}

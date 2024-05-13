@@ -1,0 +1,9 @@
+#import 'queries/recipe/recipeFields.gql'
+
+query myFriendsRecipes($search: MyRecipesSearchInput, $order: RecipeSortOrderInput, $page: PaginationInput) {
+  myFriendsRecipes(search: $search, order: $order, page: $page) {
+    ...summaryRecipeFields
+    recipeImage(type: thumb)
+  }
+}
+

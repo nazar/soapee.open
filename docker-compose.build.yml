@@ -1,0 +1,21 @@
+version: '3'
+services:
+  # The React Client
+  client-web:
+    build:
+      context: ./client-web
+      dockerfile: Dockerfile-dev
+    volumes:
+      - /app/node_modules/
+      - ./client-web:/app
+      - ./deploy/build/client:/app/build
+
+  # the API server
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile-dev
+    volumes:
+      - /app/node_modules/
+      - ./api:/app
+      - ./deploy/build/api:/app/dist

@@ -1,0 +1,14 @@
+#import 'queries/forum/forumFields.gql'
+
+mutation updateForum(
+  $id: ID!,
+  $input: ForumUpdateInput!
+) {
+  updateForum(
+    id: $id,
+    input: $input
+  )
+  {
+    ...forumFields
+  }
+}

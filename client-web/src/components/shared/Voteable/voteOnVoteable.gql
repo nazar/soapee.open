@@ -1,0 +1,14 @@
+mutation voteOnVoteable($input: VoteableVoteInput!) {
+  voteOnVoteable(input: $input) {
+    id
+    vote
+
+    voteable {
+      stats {
+        votes {
+          score
+        }
+      }
+    }
+  }
+}

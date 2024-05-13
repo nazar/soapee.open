@@ -1,0 +1,94 @@
+{
+  "reactions": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "smile",
+      "created_at": "2019-12-13 17:56:11.507283",
+      "updated_at": "2019-12-13 17:56:11.507283"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user2",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "smile",
+      "created_at": "2019-12-13 17:56:26.652853",
+      "updated_at": "2019-12-13 17:56:26.652853"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 2,
+      "reaction": "shrug",
+      "created_at": "2019-12-13 17:57:01.851504",
+      "updated_at": "2019-12-13 17:57:01.851504"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user1",
+      "reactionable_type": "comments",
+      "reactionable_id": 1,
+      "reaction": "shrug",
+      "created_at": "2019-12-13 17:57:01.851504",
+      "updated_at": "2019-12-13 17:57:01.851504"
+    },
+    {
+      "id": 5,
+      "user_id": "users:user1",
+      "reactionable_type": "recipes",
+      "reactionable_id": 17,
+      "reaction": "heart_eyes",
+      "created_at": "2022-02-06 10:47:16.466239 +00:00",
+      "updated_at": "2022-02-06 10:47:16.466239 +00:00"
+    },
+    {
+      "id": 6,
+      "user_id": "users:user1",
+      "reactionable_type": "recipes",
+      "reactionable_id": 17,
+      "reaction": "+1",
+      "created_at": "2022-02-06 10:47:18.048753 +00:00",
+      "updated_at": "2022-02-06 10:47:18.048753 +00:00"
+    },
+    {
+      "id": 7,
+      "user_id": "users:user1",
+      "reactionable_type": "recipes",
+      "reactionable_id": 17,
+      "reaction": "grinning",
+      "created_at": "2022-02-06 10:47:20.233762 +00:00",
+      "updated_at": "2022-02-06 10:47:20.233762 +00:00"
+    },
+    {
+      "id": 8,
+      "user_id": "users:user1",
+      "reactionable_type": "recipes",
+      "reactionable_id": 17,
+      "reaction": "kissing_heart",
+      "created_at": "2022-02-06 10:47:22.292403 +00:00",
+      "updated_at": "2022-02-06 10:47:22.292403 +00:00"
+    },
+    {
+      "id": 10,
+      "user_id": "users:user1",
+      "reactionable_type": "posts",
+      "reactionable_id": 1,
+      "reaction": "stuck_out_tongue_winking_eye",
+      "created_at": "2022-02-06 11:34:50.440005 +00:00",
+      "updated_at": "2022-02-06 11:34:50.440005 +00:00"
+    },
+    {
+      "id": 11,
+      "user_id": "users:user1",
+      "reactionable_type": "posts",
+      "reactionable_id": 1,
+      "reaction": "face_with_raised_eyebrow",
+      "created_at": "2022-02-06 11:34:54.187784 +00:00",
+      "updated_at": "2022-02-06 11:34:54.187784 +00:00"
+    }
+  ]
+}

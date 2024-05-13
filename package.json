@@ -1,0 +1,57 @@
+{
+  "name": "soapee-next",
+  "version": "1.0.0",
+  "author": "Nazar Aziz <mcnazar@gmail.com>",
+  "license": "AGPL-3.0-or-later",
+  "workspaces": [
+    "api",
+    "client-web",
+    "database",
+    "deploy",
+    "e2e"
+  ],
+  "scripts": {
+    "dev": "docker-sync start && docker-compose up",
+    "dev:inst": "docker-sync start && docker-compose -f docker-compose.yml -f docker-compose.coverage.yml up",
+
+    "db:migrate": "yarn workspace database run migrate:latest",
+    "db:migrate:make": "yarn workspace database run migrate:make",
+    "db:migrate:rollback": "yarn workspace database run migrate:rollback",
+    "db:migrate:production": "./migrate_production.sh",
+    "db:seed": "yarn workspace e2e run db:seed",
+
+    "shell": "docker-compose exec",
+    "shell:api": "yarn shell api sh",
+    "shell:client": "yarn shell client-web sh",
+
+    "test:api": "docker-compose exec api yarn test",
+    "test:client": "yarn workspace e2e run test",
+
+    "lint:api": "yarn workspace api run lint",
+    "lint:client": "yarn workspace client-web run lint",
+    "lint:e2e": "yarn workspace e2e run lint",
+    "lint": "yarn lint:api && yarn lint:client && yarn lint:e2e",
+
+    "docker:up": "docker-compose up --build",
+    "docker:sync:up": "docker-sync start && yarn docker:up",
+    "docker:build:watch": "docker-sync start && docker-compose -f docker-compose.yml -f docker-compose.build-watch.yml up",
+    "docker:build:stop": "docker-sync stop && docker-compose -f docker-compose.yml -f docker-compose.build-watch.yml stop",
+
+    "docker:compose": "docker-compose -f docker-compose.build.yml -p soapee_deploy",
+    "docker:build": "yarn docker:compose build",
+    "docker:build:api": "yarn docker:build api",
+    "docker:build:client": "yarn docker:build client-web",
+    "docker:build:all": "yarn docker:build:api && yarn docker:build:client",
+
+    "docker:run": "yarn docker:compose run --rm",
+    "docker:stop": "yarn docker:compose stop",
+    "build:api": "yarn docker:run api yarn build && yarn docker:stop api",
+    "build:client": "yarn docker:run client-web yarn build && yarn docker:stop client-web",
+    "build:all": "yarn build:api && yarn build:client",
+
+    "copy:config": "cp ./deploy/api/local-production.json ./deploy/build/api/config/",
+    "build": "yarn docker:build:all && yarn build:all && yarn copy:config",
+
+    "deploy": "yarn build && yarn db:migrate:production && yarn workspace deploy run deploy:production"
+  }
+}

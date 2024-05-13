@@ -1,0 +1,17 @@
+mutation updateForumPost($input: ForumPostUpdateInput!) {
+  updateForumPost(input: $input) {
+    id
+    content
+    lastEdited
+
+    forumTaggables {
+      id
+
+      forumTag {
+        id
+        tag
+        color
+      }
+    }
+  }
+}

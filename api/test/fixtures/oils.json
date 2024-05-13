@@ -1,0 +1,56 @@
+{
+  "oils": [
+    {
+      "id": 1,
+      "name": "Abyssinian Oil",
+      "version": 1,
+      "iodine": 98,
+      "ins": 70,
+      "sap": 0.168,
+      "total_saponifiable": 38,
+      "breakdown": "{\"oleic\": 18, \"stearic\": 2, \"linoleic\": 11, \"palmitic\": 3, \"linolenic\": 4}",
+      "created_at": null,
+      "updated_at": null,
+      "specId": "oil1"
+    },
+    {
+      "id": 2,
+      "name": "Almond Butter",
+      "version": 1,
+      "iodine": 70,
+      "ins": 118,
+      "sap": 0.188,
+      "total_saponifiable": 99,
+      "breakdown": "{\"oleic\": 58, \"stearic\": 15, \"linoleic\": 16, \"myristic\": 1, \"palmitic\": 9}",
+      "created_at": null,
+      "updated_at": null,
+      "specId": "oil2"
+    },
+    {
+      "id": 3,
+      "name": "Almond Oil, sweet",
+      "version": 1,
+      "iodine": 99,
+      "ins": 97,
+      "sap": 0.195,
+      "total_saponifiable": 96,
+      "breakdown": "{\"oleic\": 71, \"linoleic\": 18, \"palmitic\": 7}",
+      "created_at": null,
+      "updated_at": null,
+      "specId": "oil3"
+    },
+    {
+      "id": 4,
+      "name": "Argan Oil",
+      "version": 1,
+      "iodine": 95,
+      "ins": 95,
+      "sap": 0.191,
+      "total_saponifiable": 96,
+      "breakdown": "{\"oleic\": 46, \"linoleic\": 34, \"myristic\": 1, \"palmitic\": 14, \"linolenic\": 1}",
+      "created_at": null,
+      "updated_at": null,
+      "specId": "oil4"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+fragment reactionDetailFields on Reaction {
+  id
+  userId
+  reaction
+
+  user {
+    id
+    name
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "database": {
+    "connection": "postgresql://postgres:docker@localhost:54325",
+    "name": "soapee"
+  }
+}

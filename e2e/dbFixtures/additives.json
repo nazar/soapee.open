@@ -1,0 +1,48 @@
+{
+  "additives": [
+    {
+      "id": 1,
+      "name": "salt",
+      "notes": "notes to salt",
+      "stats": "{\"recipes\": {\"count\": 1}}",
+      "user_id": "users:user1",
+      "created_at": "2022-02-17 10:26:55.746064 +00:00",
+      "updated_at": "2022-02-17 10:26:55.746064 +00:00",
+      "deleted_at": null,
+      "specId": "additive1"
+    },
+    {
+      "id": 2,
+      "name": "pepper",
+      "notes": null,
+      "stats": "{\"recipes\": {\"count\": 1}}",
+      "user_id": "users:user1",
+      "created_at": "2022-02-17 10:27:00.649251 +00:00",
+      "updated_at": "2022-02-17 10:27:00.649251 +00:00",
+      "deleted_at": null,
+      "specId": "additive2"
+    },
+    {
+      "id": 3,
+      "name": "garlic",
+      "notes": null,
+      "stats": "{\"recipes\": {\"count\": 1}}",
+      "user_id": "users:user2",
+      "created_at": "2022-02-17 10:27:00.649251 +00:00",
+      "updated_at": "2022-02-17 10:27:00.649251 +00:00",
+      "deleted_at": null,
+      "specId": "additive3"
+    },
+    {
+      "id": 4,
+      "name": "Salt",
+      "notes": null,
+      "stats": "{\"recipes\": {\"count\": 1}}",
+      "user_id": "users:user2",
+      "created_at": "2022-02-17 10:27:00.649251 +00:00",
+      "updated_at": "2022-02-17 10:27:00.649251 +00:00",
+      "deleted_at": null,
+      "specId": "additive4"
+    }
+  ]
+}

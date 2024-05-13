@@ -1,0 +1,6 @@
+mutation updateAvatarImage($input: UpdateAvatarImageInput!) {
+  updateAvatarImage(input: $input) {
+    id
+    canonicalImage
+  }
+}

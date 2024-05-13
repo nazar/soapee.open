@@ -1,0 +1,79 @@
+#import 'queries/recipe/recipeFields.gql'
+
+query recipe($id: ID!) {
+  recipe(id: $id ) {
+    ...summaryRecipeFields
+
+    userId
+    description
+    descriptionStr
+    notes
+    visibility
+    recipeImage
+
+    settings {
+      uom
+      ratioKoh
+      soapType
+      superFat
+      superfatAfter
+      totalUom
+      kohPurity
+      naohPurity
+      ratioNaoh
+      waterRatio
+      lyeCalcType
+      totalWeight
+      totalsIncludeWater
+      fragrance
+      fragrancePpo
+      fragranceType
+      waterDiscount
+      lyeWaterLyeRatio
+      lyeWaterWaterRatio
+      recipeLyeConcentration
+      enableCitricAdjust
+      citricAdjustPercent
+    }
+
+    stats {
+      comments {
+        comments
+      }
+      votes {
+        score
+        count
+        upvotedPercent
+      }
+      favourites {
+        favourites
+      }
+      views {
+        count
+      }
+    }
+
+    recipeAdditives {
+      id
+      additiveId
+      weight
+
+      additive {
+        id
+        name
+        notes
+      }
+    }
+
+    recipeOils {
+      id
+      oilId
+      weight
+    }
+
+    fromRecipe {
+      id
+      name
+    }
+  }
+}

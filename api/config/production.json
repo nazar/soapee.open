@@ -1,0 +1,29 @@
+{
+  "database": {
+    "pool": {
+      "min": 0,
+      "max": 20
+    }
+  },
+  "graphql": {
+    "playground": false
+  },
+  "logging": {
+    "format": "json",
+    "folder": "/var/www/soapee/current/api/logs",
+    "file": "application.log"
+  },
+  "redis": {
+    "host": "localhost"
+  },
+  "email": {
+    "address": "localhost",
+    "port": 25
+  },
+  "images": {
+    "basePath": "/var/www/soapee/shared/images"
+  },
+  "nodeExporter": {
+    "enabled": true
+  }
+}

@@ -1,0 +1,13 @@
+#import "queries/post/postableFields.gql"
+
+query getPostForEdit($id: ID!) {
+  post(id: $id) {
+    ...postableFields
+
+    postable {
+      id
+      name
+      userCanEdit
+    }
+  }
+}

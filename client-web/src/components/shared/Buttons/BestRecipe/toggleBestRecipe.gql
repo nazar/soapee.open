@@ -1,0 +1,6 @@
+mutation toggleBestRecipe($id: ID!) {
+  toggleBestRecipe(id: $id) {
+    id
+    best
+  }
+}

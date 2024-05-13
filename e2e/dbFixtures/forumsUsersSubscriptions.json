@@ -1,0 +1,14 @@
+{
+  "forums_users_subscriptions": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "forum_id": "forums:forum2"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user1",
+      "forum_id": "forums:forum3"
+    }
+  ]
+}

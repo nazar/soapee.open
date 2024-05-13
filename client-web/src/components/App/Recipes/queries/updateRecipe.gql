@@ -1,0 +1,68 @@
+#import 'queries/recipe/recipeFields.gql'
+
+mutation updateRecipe($id: ID!, $recipe: RecipeInput!) {
+  updateRecipe(id: $id, recipe: $recipe) {
+    ...summaryRecipeFields
+
+    userId
+    description
+    notes
+    visibility
+
+    settings {
+      uom
+      ratioKoh
+      soapType
+      superFat
+      superfatAfter
+      totalUom
+      kohPurity
+      naohPurity
+      ratioNaoh
+      waterRatio
+      lyeCalcType
+      totalWeight
+      totalsIncludeWater
+      fragrance
+      fragrancePpo
+      fragranceType
+      waterDiscount
+      lyeWaterLyeRatio
+      lyeWaterWaterRatio
+      recipeLyeConcentration
+      enableCitricAdjust
+      citricAdjustPercent
+    }
+
+    stats {
+      comments {
+        comments
+      }
+      votes {
+        score
+        count
+        upvotedPercent
+      }
+      favourites {
+        favourites
+      }
+    }
+
+    recipeAdditives {
+      id
+      additiveId
+      weight
+    }
+
+    recipeOils {
+      id
+      oilId
+      weight
+
+      oil {
+        id
+        name
+      }
+    }
+  }
+}

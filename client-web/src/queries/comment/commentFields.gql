@@ -1,0 +1,45 @@
+#import "queries/reaction/reactionDetailFields.gql"
+
+fragment commentFields on Comment {
+  id
+  comment
+  commentableId
+  userId
+  commentableType
+  lastEdited
+  createdAt
+
+  stats {
+    votes {
+      score
+    }
+
+    favourites {
+      favourites
+    }
+  }
+
+  user {
+    id
+    name
+  }
+
+  reactions {
+    ...reactionDetailFields
+  }
+
+  myVote {
+    id
+    vote
+  }
+
+  myReport {
+    id
+    report
+    notes
+  }
+
+  myFavourite {
+    id
+  }
+}

@@ -1,0 +1,7 @@
+mutation toggleReaction($input: ReactionableToggleInput!) {
+  toggleReaction(input: $input) {
+    id
+    reactionableId
+    reactionableType
+  }
+}

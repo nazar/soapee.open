@@ -1,0 +1,8 @@
+mutation createRecipeJournal($input: RecipeJournalCreateInput!) {
+  createRecipeJournal(input: $input) {
+    id
+    journal
+    createdAt
+    updatedAt
+  }
+}

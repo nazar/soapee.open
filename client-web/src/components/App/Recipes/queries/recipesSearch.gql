@@ -1,0 +1,9 @@
+query recipes($searchOptions: RecipeSearchInput) {
+  recipes(
+    searchOptions: $searchOptions
+  ) {
+    id
+    name
+    description
+  }
+}

@@ -1,0 +1,6 @@
+mutation approveFriendFromNotification($notificationId: ID!) {
+  approveFriendFromNotification(notificationId: $notificationId) {
+    id
+    notificationMeta
+  }
+}

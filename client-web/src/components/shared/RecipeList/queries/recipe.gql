@@ -1,0 +1,7 @@
+#import 'queries/recipe/recipeFields.gql'
+
+query recipe($id: ID!) {
+  recipe(id: $id ) {
+    ...summaryRecipeFields
+  }
+}

@@ -1,0 +1,15 @@
+query getFeed($page: PaginationInput, $order: FeedOrderInput) {
+  getFeed(page: $page, order: $order) {
+    id
+    feedableId
+    feedableType
+    feedMeta
+
+    user {
+      id
+      name
+    }
+
+    createdAt
+  }
+}

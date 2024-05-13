@@ -1,0 +1,5 @@
+mutation lockPost($id: ID!) {
+  lockPost(id: $id) {
+    id
+  }
+}

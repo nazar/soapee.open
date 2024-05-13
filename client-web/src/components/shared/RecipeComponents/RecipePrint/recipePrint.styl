@@ -1,0 +1,81 @@
+.recipe-print-container
+  position absolute
+
+  top 0
+  right 0
+  left 0
+
+  padding-top $base-spacing * 2
+  padding-bottom $base-spacing * 2
+
+  background-color white
+
+  z-index 5000
+
+  @media print
+    .back-message
+      display none
+
+    table
+      border none !important
+      border-width 0 !important
+      table-layout fixed
+
+      thead
+        display table-row-group
+      tbody
+        page-break-inside avoid
+        break-inside avoid
+
+    .ui.header.attached
+      background none !important
+      padding-top 6px !important
+      padding-bottom 6px !important
+      border none !important
+      border-bottom 1px solid silver !important
+
+    .break
+      page-break-inside avoid
+
+    .split-container
+      padding-top 16px
+
+      .left, .right
+        width 50%
+        padding 4px
+      .left
+        float left
+      .right
+        float left
+
+      .clear
+        clear both
+
+
+    .printable
+      font-size 12px !important
+
+      thead
+        border none !important
+
+        th
+          border none !important
+          border-bottom 1px solid silver !important
+
+          padding-top 4px !important
+          padding-bottom 4px !important
+
+      tbody
+        td
+          border none !important
+          padding-top 4px !important
+          padding-bottom 4px !important
+
+      tfoot
+        border none !important
+
+        th
+          border none !important
+
+          padding-top 4px !important
+          padding-bottom 4px !important

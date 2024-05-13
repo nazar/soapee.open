@@ -1,0 +1,11 @@
+{
+  "recipe_journals": [
+    {
+      "id": 1,
+      "recipe_id": "recipes:recipe2",
+      "journal": "<p>Journal entry 12?\ndry skin\noily skin</p>\n",
+      "created_at": "2020-04-30 13:58:13.780000",
+      "updated_at": "2020-04-30 13:58:13.780000"
+    }
+  ]
+}

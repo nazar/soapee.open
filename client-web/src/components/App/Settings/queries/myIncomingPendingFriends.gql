@@ -1,0 +1,7 @@
+#import 'queries/user/publicUserFields.gql'
+
+query myIncomingPendingFriends($page: PaginationInput) {
+  myIncomingPendingFriends(page: $page) {
+    ...publicUserFields
+  }
+}

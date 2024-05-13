@@ -1,0 +1,12 @@
+#import 'queries/forum/forumFields.gql'
+
+mutation createForum(
+  $input: ForumCreateInput!
+) {
+  createForum(
+    input: $input
+  )
+  {
+    ...forumFields
+  }
+}

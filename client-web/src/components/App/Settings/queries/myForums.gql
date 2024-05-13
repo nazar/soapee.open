@@ -1,0 +1,13 @@
+#import 'queries/forum/forumFields.gql'
+
+query myForums($order: ForumOrderInput, $page: PaginationInput) {
+  myForums(order: $order, page: $page) {
+    ...forumFields
+
+    posts {
+      id
+      title
+      createdAt
+    }
+  }
+}

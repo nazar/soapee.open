@@ -1,0 +1,5 @@
+version: '3'
+services:
+  # The React Client
+  client-web:
+    command: ["yarn", "start:build:watch"]

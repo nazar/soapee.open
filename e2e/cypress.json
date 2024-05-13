@@ -1,0 +1,27 @@
+{
+  "numTestsKeptInMemory": 3,
+  "baseUrl": "http://localhost:5000",
+  "retries": {
+    "runMode": 1,
+    "openMode": 0
+  },
+  "video": false,
+  "env": {
+    "JWT_SECRET": "supah-sekret"
+  },
+  "blockHosts": [
+    "*facebook.com",
+    "*facebook.net",
+    "insights.hotjar.com",
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "*.pndsn.com",
+    "*.intercom.io",
+    "*.intercomcdn.com"
+  ],
+  "execTimeout": 10000,
+  "pageLoadTimeout": 10000,
+  "responseTimeout": 10000,
+  "taskTimeout": 20000,
+  "nodeVersion": "system"
+}

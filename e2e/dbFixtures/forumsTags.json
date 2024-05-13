@@ -1,0 +1,26 @@
+{
+  "forums_tags": [
+    {
+      "id": 1,
+      "forum_id": "forums:forum1",
+      "tag": "tag1",
+      "color": "black",
+      "stats": null,
+      "user_id": "users:user1",
+      "created_at": "2022-03-02 12:57:00.376000 +00:00",
+      "updated_at": "2022-03-02 12:57:00.376000 +00:00",
+      "specId": "forumTag1"
+    },
+    {
+      "id": 2,
+      "forum_id": "forums:forum1",
+      "tag": "tag2",
+      "color": "blue",
+      "stats": null,
+      "user_id": "users:user1",
+      "created_at": "2022-03-02 12:57:00.376000 +00:00",
+      "updated_at": "2022-03-02 12:57:00.376000 +00:00",
+      "specId": "forumTag2"
+    }
+  ]
+}

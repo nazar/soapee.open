@@ -1,0 +1,5 @@
+mutation sendRecoverFacebookAccount($input: UserEmailResetPasswordInput!) {
+  sendRecoverFacebookAccount(input: $input) {
+    token
+  }
+}

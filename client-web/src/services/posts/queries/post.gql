@@ -1,0 +1,13 @@
+#import "queries/post/postableFields.gql"
+
+query post($id: ID!) {
+  post(id: $id) {
+    ...postableFields
+    contentStr
+
+    postable {
+      id
+      name
+    }
+  }
+}

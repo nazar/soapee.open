@@ -1,0 +1,13 @@
+#import 'queries/forum/forumFields.gql'
+
+query mySubscribedForums($order: ForumOrderInput, $page: PaginationInput) {
+  mySubscribedForums(order: $order, page: $page) {
+    ...forumFields
+
+    posts {
+      id
+      title
+      createdAt
+    }
+  }
+}

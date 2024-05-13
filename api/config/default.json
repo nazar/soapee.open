@@ -1,0 +1,28 @@
+{
+  "database": {
+    "pool": {
+      "min": 0,
+      "max": 7
+    },
+    "searchPath": "public"
+  },
+  "logging": {
+    "console": true,
+    "format": "text",
+    "level": "sql"
+  },
+  "graphql": {
+    "playground": false,
+    "tracing": false
+  },
+  "email": {
+    "address": "mail",
+    "port": 1025
+  },
+  "images": {
+    "basePath": "/app/images"
+  },
+  "nodeExporter": {
+    "enabled": false
+  }
+}

@@ -1,0 +1,7 @@
+#import 'queries/user/publicUserFields.gql'
+
+query user($id: ID!) {
+  user(id: $id) {
+    ...publicUserFields
+  }
+}

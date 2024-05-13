@@ -1,0 +1,13 @@
+query getMyAdditive($id: ID!) {
+  additive(id: $id) {
+    id
+    name
+    notes
+
+    stats {
+      recipes {
+        count
+      }
+    }
+  }
+}

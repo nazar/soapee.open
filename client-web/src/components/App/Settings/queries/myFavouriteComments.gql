@@ -1,0 +1,7 @@
+#import "queries/comment/commentFields.gql"
+
+query myFavouriteComments($order: CommentableOrderInput, $page: PaginationInput) {
+  myFavouriteComments(order: $order, page: $page) {
+    ...commentFields
+  }
+}

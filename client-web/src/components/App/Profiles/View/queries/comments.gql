@@ -1,0 +1,7 @@
+#import "queries/comment/commentFields.gql"
+
+query comments($search: CommentsSearchInput!, $order: CommentableOrderInput, $page: PaginationInput) {
+  comments(search: $search, order: $order, page: $page) {
+    ...commentFields
+  }
+}

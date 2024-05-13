@@ -1,0 +1,37 @@
+{
+  "forums": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "summary": "this is the summary",
+      "name": "testforum",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum1"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user1",
+      "summary": "this is the summary",
+      "name": "another_forum",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum2"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user2",
+      "summary": "this is the summary",
+      "name": "another_forummm",
+      "banner": "this is the banner",
+      "forum_type": "public",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000",
+      "specId": "forum3"
+    }
+  ]
+}

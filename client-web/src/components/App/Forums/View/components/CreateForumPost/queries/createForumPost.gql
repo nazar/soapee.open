@@ -1,0 +1,7 @@
+#import "queries/post/postableFields.gql"
+
+mutation createForumPost($input: CreateForumPostInput!) {
+  createForumPost(input: $input) {
+    ...postableFields
+  }
+}

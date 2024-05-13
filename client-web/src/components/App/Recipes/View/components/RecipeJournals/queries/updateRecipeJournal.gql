@@ -1,0 +1,7 @@
+mutation updateRecipeJournal($id: ID!, $input: RecipeJournalUpdateInput!) {
+  updateRecipeJournal(id: $id, input: $input) {
+    id
+    journal
+    updatedAt
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.idea
+.docker-sync
+.DS_Store
+dev-images
+
+# local dev override files
+docker-compose.override.yml
+docker-sync.yml
+
+# auto generated dev files
+schema.graphql

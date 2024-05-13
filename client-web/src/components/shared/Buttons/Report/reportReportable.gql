@@ -1,0 +1,6 @@
+mutation reportReportable($input: ReportReportableInput!) {
+  reportReportable(input: $input) {
+    id
+    reportableId
+  }
+}

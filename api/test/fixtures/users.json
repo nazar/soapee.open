@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nazar Aziz",
+      "image_url": null,
+      "about": "I got hooked on soap making about a year and and and predominantly make liquid soap using KOH.",
+      "last_logged_in": "2018-09-05 17:52:02.829000",
+      "created_at": "2015-07-27 12:35:41.272000",
+      "updated_at": "2018-09-05 17:52:02.829000",
+      "email": null,
+      "specId": "user1"
+    },
+    {
+      "id": 2,
+      "name": "Aziz Nazar",
+      "image_url": null,
+      "about": "I got hooked on soap making about a year and and and predominantly make liquid soap using KOH.",
+      "last_logged_in": "2018-09-05 17:52:02.829000",
+      "created_at": "2015-07-27 12:35:41.272000",
+      "updated_at": "2018-09-05 17:52:02.829000",
+      "email": null,
+      "specId": "user2"
+    },
+    {
+      "id": 3,
+      "name": "Stranger Danger",
+      "image_url": null,
+      "about": "KOH.",
+      "last_logged_in": "2018-09-05 17:52:02.829000",
+      "created_at": "2015-07-27 12:35:41.272000",
+      "updated_at": "2018-09-05 17:52:02.829000",
+      "email": null,
+      "specId": "user3"
+    },
+    {
+      "id": 4,
+      "name": "Billy No Mates",
+      "image_url": null,
+      "about": "KOHH",
+      "last_logged_in": "2018-09-05 17:52:02.829000",
+      "created_at": "2015-07-27 12:35:41.272000",
+      "updated_at": "2018-09-05 17:52:02.829000",
+      "email": null,
+      "specId": "user4"
+    }
+  ]
+}

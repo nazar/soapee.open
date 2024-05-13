@@ -1,0 +1,62 @@
+{
+  "recipe_oils": [
+    {
+      "id": 1,
+      "recipe_id": "recipes:recipe1",
+      "oil_id": "oils:oil1",
+      "weight": 5,
+      "created_at": "2015-07-29 23:09:23.236000",
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "recipe_id": "recipes:recipe2",
+      "oil_id": "oils:oil2",
+      "weight": 45,
+      "created_at": "2015-07-29 23:09:23.236000",
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "recipe_id": "recipes:recipe2",
+      "oil_id": "oils:oil3",
+      "weight": 45,
+      "created_at": "2015-07-29 23:09:23.236000",
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "recipe_id": "recipes:recipe2",
+      "oil_id": "oils:oil4",
+      "weight": 5,
+      "created_at": "2015-07-29 23:09:23.236000",
+      "updated_at": null
+    },
+    {
+      "id": 5,
+      "recipe_id": "recipes:recipe2",
+      "oil_id": "oils:oil1",
+      "weight": 5,
+      "created_at": "2015-07-30 17:50:18.496000",
+      "updated_at": null
+    },
+    {
+      "id": 6,
+      "recipe_id": "recipes:recipe1",
+      "oil_id": "oils:oil2",
+      "weight": 30,
+      "created_at": "2015-07-30 17:50:18.496000",
+      "updated_at": null
+    },
+    {
+      "id": 7,
+      "recipe_id": "recipes:recipe1",
+      "oil_id": "oils:oil3",
+      "weight": 65,
+      "created_at": "2015-07-30 17:50:18.496000",
+      "updated_at": null
+    }
+  ]
+}
+
+

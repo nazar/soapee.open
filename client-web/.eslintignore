@@ -1,0 +1,10 @@
+node_modules
+
+# ignore cra assets
+config
+build
+scripts
+dist
+
+# tinymce
+public/tinymce

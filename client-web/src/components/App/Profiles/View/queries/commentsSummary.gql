@@ -1,0 +1,5 @@
+query commentsSummary($search: CommentsSearchInput!) {
+  commentsSummary(search: $search) {
+    count
+  }
+}

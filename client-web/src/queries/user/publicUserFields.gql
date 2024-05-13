@@ -1,0 +1,22 @@
+fragment publicUserFields on PublicUser {
+  id
+  name
+  canonicalImage
+  createdAt
+
+  stats {
+    counts {
+      posts
+      comments
+      forums
+      recipes
+    }
+
+    karma {
+      posts
+      comments
+      recipes
+    }
+  }
+}
+

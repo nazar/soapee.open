@@ -1,0 +1,5 @@
+query searchPostsSummary($search: PostsSearchInput!) {
+  postsSummary(search: $search) {
+    count
+  }
+}

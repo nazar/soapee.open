@@ -1,0 +1,60 @@
+#import "queries/reaction/reactionDetailFields.gql"
+
+fragment postableFields on Post {
+  id
+  title
+  content
+  postableId
+  userId
+  postableType
+  locked
+  lastEdited
+  commentedAt
+  createdAt
+
+  user {
+    id
+    name
+  }
+
+  myVote {
+    vote
+  }
+
+  myFavourite {
+    id
+  }
+
+  myReport {
+    id
+    report
+    notes
+  }
+
+  reactions {
+    ...reactionDetailFields
+  }
+
+
+  forumTaggables {
+    id
+
+    forumTag {
+      id
+      tag
+      color
+    }
+  }
+
+  stats {
+    comments {
+      comments
+    }
+    votes {
+      score
+    }
+    favourites {
+      favourites
+    }
+  }
+}

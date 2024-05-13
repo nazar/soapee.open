@@ -1,0 +1,7 @@
+#import "queries/post/postableFields.gql"
+
+query myFavouritePosts($page: PaginationInput, $order: PostOrderInput) {
+  myFavouritePosts(page: $page, order: $order) {
+    ...postableFields
+  }
+}

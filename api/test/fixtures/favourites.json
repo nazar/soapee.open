@@ -1,0 +1,68 @@
+{
+  "favourites": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe1",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-07-31 15:48:32.899000",
+      "updated_at": null
+    },
+    {
+      "id": 2,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe2",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-07 16:44:34.690000",
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe3",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-08 05:18:01.258000",
+      "updated_at": null
+    },
+    {
+      "id": 4,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe4",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-11 03:35:00.322000",
+      "updated_at": null
+    },
+    {
+      "id": 5,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe5",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-11 03:35:00.322000",
+      "updated_at": null
+    },
+    {
+      "id": 6,
+      "user_id": "users:user1",
+      "favouriteable_id": "recipes:recipe6",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-11 03:35:00.322000",
+      "updated_at": null
+    },
+    {
+      "id": 7,
+      "user_id": "users:user2",
+      "favouriteable_id": "recipes:recipe1",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-11 03:10:39.378000",
+      "updated_at": null
+    },
+    {
+      "id": 8,
+      "user_id": "users:user3",
+      "favouriteable_id": "recipes:recipe2",
+      "favouriteable_type": "recipes",
+      "created_at": "2015-08-11 03:35:00.322000",
+      "updated_at": null
+    }
+  ]
+}

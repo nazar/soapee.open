@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "commentable_id": "recipes:recipe1",
+      "commentable_type": "recipes",
+      "comment": "lemon rose",
+      "created_at": "2015-08-01 01:58:41.796000",
+      "updated_at": "2015-08-01 01:58:41.796000"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user2",
+      "commentable_id": "recipes:recipe1",
+      "commentable_type": "recipes",
+      "comment": "Hi Tolly!\n\nSuper thanks for sharing this!\n\nOnly yesterday I spotted a bar of beef shortening at the supermarket and wondered what recipes I could use it in. I will give this one a shot! :D",
+      "created_at": "2015-08-07 11:19:05.893000",
+      "updated_at": "2015-08-07 11:19:05.893000"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user3",
+      "commentable_id": "recipes:recipe2",
+      "commentable_type": "recipes",
+      "comment": "1 T PPO Kaolin Clay",
+      "created_at": "2015-08-07 14:25:34.493000",
+      "updated_at": "2015-08-07 14:25:34.493000"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user3",
+      "commentable_id": "recipes:recipe4",
+      "commentable_type": "recipes",
+      "comment": "Spam Comment",
+      "created_at": "2015-08-07 14:25:34.493000",
+      "updated_at": "2015-08-07 14:25:34.493000"
+    },
+    {
+      "id": 5,
+      "user_id": "users:user1",
+      "commentable_id": "recipes:recipe2",
+      "commentable_type": "recipes",
+      "comment": "I just bought some tallow for a shaving bar and needed another recipe to try.  Thanks!!",
+      "created_at": "2015-08-07 16:44:57.187000",
+      "updated_at": "2015-08-07 16:44:57.187000"
+    },
+    {
+      "id": 8,
+      "user_id": "users:user2",
+      "commentable_id": "posts:post1",
+      "commentable_type": "posts",
+      "comment": "first comment on a post!! woop!",
+      "created_at": "2015-08-07 16:44:57.187000",
+      "updated_at": "2015-08-07 16:44:57.187000"
+    },
+    {
+      "id": 9,
+      "user_id": "users:user2",
+      "commentable_id": "posts:post3",
+      "commentable_type": "posts",
+      "comment": "comment on post3",
+      "created_at": "2015-08-07 16:44:57.187000",
+      "updated_at": "2015-08-07 16:44:57.187000"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "friendships": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "friend_id": "users:user2",
+      "created_at": "2015-08-06 15:16:57.230000",
+      "updated_at": "2015-08-06 15:16:57.230000"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user2",
+      "friend_id": "users:user1",
+      "created_at": "2015-08-06 15:17:13.465000",
+      "updated_at": "2015-08-06 15:17:13.465000"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user3",
+      "friend_id": "users:user1",
+      "created_at": "2015-08-06 15:17:13.465000",
+      "updated_at": "2015-08-06 15:17:13.465000"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user3",
+      "friend_id": "users:user2",
+      "created_at": "2015-08-06 15:17:13.465000",
+      "updated_at": "2015-08-06 15:17:13.465000"
+    }
+  ]
+}

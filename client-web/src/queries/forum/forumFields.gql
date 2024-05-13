@@ -1,0 +1,22 @@
+fragment forumFields on Forum {
+  id
+  userId
+  name
+  summary
+  banner
+  forumType
+  createdAt
+
+  stats {
+    subscriptions
+
+    posts {
+      posts
+    }
+
+    comments {
+      comments
+    }
+  }
+
+}

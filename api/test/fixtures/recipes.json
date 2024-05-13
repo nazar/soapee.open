@@ -1,0 +1,82 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "user_id": "users:user1",
+      "name": "Glycerine Hand and Body Liquid Soap",
+      "description": "This has become my favourite liquid soap recipe after a year of experiments. In my experience, these combination of oils are least likely to split and the resultant soap has very stable bubbles.\n\nGlycerine is added during the Saponification process to speed up the process. \n\nFor hand washes, the soap is further diluted with a 1:4 soap:water ratio. As a shower soap a 1:3 soap:water gives a thicker lather. Bother dispense perfectly from a Foam Dispenser (i.e. Cuisipro).\n\nThe high Corn oil content gives this soap a very faint toffee aroma, which can be further enhanced with Coconut Oil fragrance oil, which gives it an exceedingly toffee like aroma.",
+      "notes": "#### Stage 1\n\n* Mix 120 grams of Glycerine with 100 grams of distilled water in a mixing pan and heat to 50 oC\n* Mix a teaspoon of honey with 10 grams of distilled water\n* Take the Glycerine and water mixture off the heat and add the KOH in stages. Keep mixing the solution until all the KOH flakes have dissolved\n* Add the honey + water mixture to the KOH solution. This should go a deep orange\n* Mix all the oils in a separate pan an heat to 50 oC\n* Take the oils off the heat and pour into the KOH pan\n* Mix with a blending stick until the solution reaches a toffee like consistency.  This should take no more than a few minutes\n* Place in an oven, heated to 90 oC and leave for five hours\n* Remove from oven and leave over-night to cool\n\n#### Stage 2\n\n* Once cooled, the soap mixture might still be soft\n* Add the remainder of the water, which will take a few days to dissolve the soap mixture. Once dissolved, bottle and place in a dark cool place\n\n#### Dilution\n\n* Hand and Face Soap: dilute 1:4 soap : water\n* Body Wash: dilute 1:3 soap : water\n\nBoth dilutions dispense perfectly from a foaming soap dispenser.",
+      "summary": "{\"totals\": {\"totalLye\": 66.7375, \"totalSuperfat\": 0, \"waterLyeRatio\": 1.4834238621464695, \"totalOilWeight\": \"300\", \"fragranceWeight\": 9, \"lyeConcentration\": 40.266988460668216, \"totalBatchWeight\": 474.7375, \"totalWaterWeight\": 99}, \"breakdowns\": {\"oleic\": 30.8, \"capric\": 6.45, \"lauric\": 0.3, \"stearic\": 1, \"caprylic\": 8.1, \"linoleic\": 29.7, \"myristic\": 0.15, \"palmitic\": 7.4, \"linolenic\": 0.5, \"ricinoleic\": 13.5}, \"properties\": {\"ins\": 116.75, \"bubbly\": 28.5, \"iodine\": 91.35, \"stable\": 21.9, \"hardness\": 23.4, \"cleansing\": 15, \"condition\": 74.5, \"longevity\": 8.4}, \"saturations\": {\"saturated\": 23.4, \"unsaturated\": 76.6}}",
+      "created_at": "2015-07-27 13:03:29.416000",
+      "updated_at": "2017-02-26 13:01:42.636000",
+      "visibility": 0,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": null, \"soapType\": \"koh\", \"superFat\": \"5\", \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": null, \"waterRatio\": \"33\", \"lyeCalcType\": \"ratio\", \"totalWeight\": \"300\", \"fragrancePpo\": 30, \"fragranceType\": \"ratio\", \"waterDiscount\": 0, \"lyeWaterLyeRatio\": 1, \"lyeWaterWaterRatio\": 3, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe1"
+    },
+    {
+      "id": 2,
+      "user_id": "users:user1",
+      "name": "Lavender",
+      "description": "soapy stuff.",
+      "notes": "Include 1.4 oz lavender EO",
+      "summary": "{\"totals\": {\"totalLye\": 180.52836564504634, \"waterLyeRatio\": 2.677473970768556, \"totalOilWeight\": 1272, \"lyeConcentration\": 27.192578600114732, \"totalBatchWeight\": 1935.8883656450464, \"totalWaterWeight\": 483.36}, \"breakdowns\": {\"oleic\": 47.45, \"lauric\": 14.399999999999999, \"stearic\": 2.85, \"linoleic\": 8.600000000000001, \"myristic\": 5.7, \"palmitic\": 11.799999999999999, \"linolenic\": 0.65, \"ricinoleic\": 4.5}, \"properties\": {\"ins\": 150.39999999999998, \"bubbly\": 24.599999999999998, \"iodine\": 62.55, \"stable\": 19.15, \"hardness\": 34.75, \"cleansing\": 20.099999999999998, \"condition\": 61.2}, \"saturations\": {\"saturated\": 34.75, \"unsaturated\": 61.199999999999996}}",
+      "created_at": "2015-07-29 13:36:44.794000",
+      "updated_at": "2015-07-30 17:50:18.491000",
+      "visibility": 1,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": 50, \"soapType\": \"naoh\", \"superFat\": 5, \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": 50, \"waterRatio\": 38, \"lyeCalcType\": \"ratio\", \"totalWeight\": 1272, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe2"
+    },
+    {
+      "id": 3,
+      "user_id": "users:user1",
+      "name": "Trial Remedial Recipe 1",
+      "description": "",
+      "notes": "",
+      "summary": "{\"totals\": {\"totalLye\": 145.34358517462582, \"waterLyeRatio\": 2.614494472139529, \"totalOilWeight\": \"1000\", \"lyeConcentration\": 27.66638620443289, \"totalBatchWeight\": 1525.3435851746258, \"totalWaterWeight\": 380}, \"breakdowns\": {\"oleic\": 38, \"lauric\": 22.05, \"stearic\": 7.2, \"linoleic\": 6.950000000000001, \"myristic\": 7.2, \"palmitic\": 9.9, \"linolenic\": 0.9, \"ricinoleic\": 4.5}, \"properties\": {\"ins\": 163.50000000000003, \"bubbly\": 33.75, \"iodine\": 51.2, \"stable\": 21.599999999999998, \"hardness\": 46.35, \"cleansing\": 29.25, \"condition\": 50.35}, \"saturations\": {\"saturated\": 46.35000000000001, \"unsaturated\": 50.35}}",
+      "created_at": "2015-07-29 23:09:23.232000",
+      "updated_at": "2015-07-29 23:09:23.232000",
+      "visibility": 2,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": 50, \"soapType\": \"naoh\", \"superFat\": 5, \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": 50, \"waterRatio\": 38, \"lyeCalcType\": \"ratio\", \"totalWeight\": 1000, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe3"
+    },
+    {
+      "id": 4,
+      "user_id": "users:user2",
+      "name": "Trial Remedial Recipe 2",
+      "description": "",
+      "notes": "",
+      "summary": "{\"totals\": {\"totalLye\": 145.34358517462582, \"waterLyeRatio\": 2.614494472139529, \"totalOilWeight\": \"1000\", \"lyeConcentration\": 27.66638620443289, \"totalBatchWeight\": 1525.3435851746258, \"totalWaterWeight\": 380}, \"breakdowns\": {\"oleic\": 38, \"lauric\": 22.05, \"stearic\": 7.2, \"linoleic\": 6.950000000000001, \"myristic\": 7.2, \"palmitic\": 9.9, \"linolenic\": 0.9, \"ricinoleic\": 4.5}, \"properties\": {\"ins\": 163.50000000000003, \"bubbly\": 33.75, \"iodine\": 51.2, \"stable\": 21.599999999999998, \"hardness\": 46.35, \"cleansing\": 29.25, \"condition\": 50.35}, \"saturations\": {\"saturated\": 46.35000000000001, \"unsaturated\": 50.35}}",
+      "created_at": "2015-07-29 23:09:23.232000",
+      "updated_at": "2015-07-29 23:09:23.232000",
+      "visibility": 2,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": 50, \"soapType\": \"naoh\", \"superFat\": 5, \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": 50, \"waterRatio\": 38, \"lyeCalcType\": \"ratio\", \"totalWeight\": 1000, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe4"
+    },
+    {
+      "id": 5,
+      "user_id": "users:user3",
+      "name": "Random Recipe 1",
+      "description": "",
+      "notes": "",
+      "summary": "{\"totals\": {\"totalLye\": 145.34358517462582, \"waterLyeRatio\": 2.614494472139529, \"totalOilWeight\": \"1000\", \"lyeConcentration\": 27.66638620443289, \"totalBatchWeight\": 1525.3435851746258, \"totalWaterWeight\": 380}, \"breakdowns\": {\"oleic\": 38, \"lauric\": 22.05, \"stearic\": 7.2, \"linoleic\": 6.950000000000001, \"myristic\": 7.2, \"palmitic\": 9.9, \"linolenic\": 0.9, \"ricinoleic\": 4.5}, \"properties\": {\"ins\": 163.50000000000003, \"bubbly\": 33.75, \"iodine\": 51.2, \"stable\": 21.599999999999998, \"hardness\": 46.35, \"cleansing\": 29.25, \"condition\": 50.35}, \"saturations\": {\"saturated\": 46.35000000000001, \"unsaturated\": 50.35}}",
+      "created_at": "2015-07-29 23:09:23.232000",
+      "updated_at": "2015-07-29 23:09:23.232000",
+      "visibility": 2,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": 50, \"soapType\": \"naoh\", \"superFat\": 5, \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": 50, \"waterRatio\": 38, \"lyeCalcType\": \"ratio\", \"totalWeight\": 1000, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe5"
+    },
+    {
+      "id": 6,
+      "user_id": "users:user2",
+      "name": "Private Recipe",
+      "description": "",
+      "notes": "",
+      "summary": "{\"totals\": {\"totalLye\": 145.34358517462582, \"waterLyeRatio\": 2.614494472139529, \"totalOilWeight\": \"1000\", \"lyeConcentration\": 27.66638620443289, \"totalBatchWeight\": 1525.3435851746258, \"totalWaterWeight\": 380}, \"breakdowns\": {\"oleic\": 38, \"lauric\": 22.05, \"stearic\": 7.2, \"linoleic\": 6.950000000000001, \"myristic\": 7.2, \"palmitic\": 9.9, \"linolenic\": 0.9, \"ricinoleic\": 4.5}, \"properties\": {\"ins\": 163.50000000000003, \"bubbly\": 33.75, \"iodine\": 51.2, \"stable\": 21.599999999999998, \"hardness\": 46.35, \"cleansing\": 29.25, \"condition\": 50.35}, \"saturations\": {\"saturated\": 46.35000000000001, \"unsaturated\": 50.35}}",
+      "created_at": "2015-07-29 23:09:23.232000",
+      "updated_at": "2015-07-29 23:09:23.232000",
+      "visibility": 0,
+      "settings": "{\"uom\": \"percent\", \"ratioKoh\": 50, \"soapType\": \"naoh\", \"superFat\": 5, \"totalUom\": \"gram\", \"kohPurity\": 90, \"ratioNaoh\": 50, \"waterRatio\": 38, \"lyeCalcType\": \"ratio\", \"totalWeight\": 1000, \"recipeLyeConcentration\": 30}",
+      "specId": "recipe6"
+    }
+  ]
+}

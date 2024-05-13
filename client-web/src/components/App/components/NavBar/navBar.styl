@@ -1,0 +1,23 @@
+.navbar
+  background-color black
+  margin-bottom $base-spacing * 2
+
+  +mobile()
+    z-index 1
+
+  .ui.menu
+
+    &.inverted
+      background-color #000000
+
+    &.mobile-dropdown
+      margin-bottom $base-spacing !important
+
+    .user-menu
+      .item
+        padding-top $base-spacing
+        padding-bottom $base-spacing
+
+        &.user-menu-main-item
+          padding-top 13px
+          padding-bottom 13px
